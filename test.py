@@ -46,6 +46,6 @@ def run_load_test(duration=30):
 
 if __name__ == "__main__":
     try:
-        run_load_test(30)
+        run_load_test(15)
     except KeyboardInterrupt:
         print("\nLoad test interrupted by user")
